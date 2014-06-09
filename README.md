@@ -28,3 +28,7 @@ The python-api provides a single class to write and read to a GoogleSpreadSheet.
 
     MySpreadSheet = spreadsheet ( uid = 'shashank@jharkhand.com', name='MyPrivateSheet', mode='a', columns = 3)
     MySpreadSheet.write_row(['A is nice','B is average','C is pathetic'])
+
+-Additionally for help on the terminal use spreadsheet.help() for guidelines
+    from gdoc_api import spreadsheet
+    spreadsheet.help()
